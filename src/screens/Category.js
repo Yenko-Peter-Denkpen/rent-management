@@ -1,77 +1,63 @@
-import React from 'react'
-import { FaImages } from 'react-icons/fa'
-import logo from "../imgs/logo.jpg";
-import Header from '../components/Header'
-function category() {
+import React from 'react';
+import { FaImages } from 'react-icons/fa';
+import Header from '../components/Header';
+import house from '../imgs/house.webp';
+import houses from '../imgs/images (8).jpeg';
+import House from '../imgs/images (10).jpeg';
+import Houses from '../imgs/images (21).jpeg';
+import {Link} from 'react-router-dom'
+
+
+
+
+function Category() {
   return (
     <div>
-    <div class="card text-white bg-primary mb-3" style="max-width:20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">self contain;</h4>
-    <img src="" alt="house.webp" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+    
+<h1>click on any to see your desired room</h1>
+<div className='firstrow'>
+
+      
+<div className='card'>
+<h2>bungalow</h2>
+<img src={house} alt="" />
+<p>this house contain 12 rooms, bathroom, kicthen,toilet and garage </p>
+<p>GHC4500 1yr</p>
+<button><Link to='/bungalow'>click to see more</Link></button>
 </div>
-<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">single room</h4>
-    <img src="" alt="house1.webp" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+
+
+<div className='card'>
+<h2>self contain</h2>
+<img src={houses} alt="" />
+<p>it has 4bedrooms, kicthen and toilet</p>
+<p>GHC3000 1yr</p>
+<button><Link to='/self contain'>click to see more</Link></button>
 </div>
-<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title"> bangolo</h4>
-    <img src="" alt="images(1).jpeg" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+
+<div className='card'>
+<h2>compound house</h2>
+<img src={House} alt="" />
+<p> a single room with bathroom and toilet</p>
+<p>GHC780 1yr</p>
+<button><Link to='/compound house'>click to see more</Link></button>
 </div>
-<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">6 bedroom bangolo</h4>
-    <img src="" alt="images(2).jpeg" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+
+<div className='card'>
+<h2>single step story building</h2>
+<img src={Houses} alt="" />
+<p>it have 5rooms, hall, kicthen,
+bathroom, toilet and a swiming pool</p>
+<p>GHC5000</p>
+<button><Link to='/single step story building'>click to see more</Link></button>
 </div>
-<div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">single room flat</h4>
-    <img src="" alt="images(3).jpeg" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
 </div>
-<div class="card text-white bg-info mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">flat</h4>
-    <img src="" alt="images(5).jpeg" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<div class="card bg-light mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">2 flat</h4>
-    <img src="" alt="images(6).jpeg" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-  <div class="card-header">Header</div>
-  <div class="card-body">
-    <h4 class="card-title">compound house</h4>
-    <img src="" alt="images(10).jpeg" />
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
+
+
 </div>
     
-    </div>
+    
   )
 }
 
-export default category
+export default Category
