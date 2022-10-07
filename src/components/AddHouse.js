@@ -3,82 +3,6 @@ import React, {useState} from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
-// function AddHouse( {submit}) {
-//     const [house, setAddHouse] = useState({
-//         location:"",
-//         category:"",
-//         facilities:"",
-//         numofrooms:"",
-//         address:"",
-//         contact:"",
-//         price:"",
-//         image:""
-//     });
-//     const handler =(event) => {
-//         setAddHouse((prev) => ({
-//             ...prev,
-//         [event.target.name]: event.target.value,
-//         }));
-//     };
-//     const handleForm = (e) =>{
-//         e.preventDefault();
-//         submit(house);
-//     };
-//   return (
-//     <div>
-//       <NavBar/>
-//       <div className="formContainer">
-//       <h3>Add new house</h3>
-//       <form>
-//       <fieldset>
-//       <legend>House Data</legend>
-//       <div className="location">
-//       <div className="N">
-//       <label>
-//       Lacation
-//       <input
-//       loction="location"
-//       value={house.lacation}
-//       type="text"
-//       onChange={handler}
-//       />
-//       </label>
-//       </div>
-//       </div>
-//       <div className="lacation">
-//       <div className="W">
-//       <label>
-//       category
-//       <input
-//       category="category"
-//       value={house.category}
-//       type="text"
-//       onChange={handler}
-//       />
-//       </label>
-//       </div>
-//       <div className="category">
-//       <div className="W">
-//       <label>
-//       facilities
-//       <input
-//       facilities="facilities"
-//       value={house.facilities}
-//       type="text"
-//       onChange={handler}
-//       />
-    
-//       </label>
-//       </div>
-//       <div className="facilities">
-//       <div className="W">
-//       <label>
-//       numofrooms
-//       <input
-//       numofrooms="numofrooms"
-//       value={house.numofrooms}
-
-
 function AddHouse({ submit }) {
     const [house, setAddHouse] = useState({
                 location:"",
@@ -189,6 +113,16 @@ function AddHouse({ submit }) {
                       name="price"
                       value={house.price}
                       type="text"
+                      onChange={handler}
+                    />
+                  </label>
+                
+                  <label>
+                    add image
+                    <input
+                      name="image"
+                      value={house.image}
+                      type="image"
                       onChange={handler}
                     />
                   </label>

@@ -2,43 +2,47 @@ import React from 'react'
 import hfd from '../imgs/hfd.jpeg'
 import hyu from '../imgs/hyu.jpeg'
 import rin from '../imgs/rin.jpeg'
+import NavBar from '../components/NavBar'
 <imgs/>
 function Singleroom() {
   return (
-    <div>
+    <div><NavBar/>
+<div><h1>Singleroom</h1></div>
+
+    <div className='firstrow'>
     <div className='card'>
-    <h2>singleroom</h2>
-    <img src={hfd} alt="" />
-    <p>it have 1room, bathroom</p>
+     <img src={hfd} alt="" />
+    <p>it has, bathroom</p>
     <p>location:zongo</p>
     <p>number of rooms 1</p>
-    <button>contact:0207481917</button>
-    <button>email:yenkopeter7@gmail.com</button>
+    <div>email:yenkopeter7@gmail.com</div>
+    <div>contact:0207481917</div>
+    <button>contact owner</button>
     </div>
     
-    <div>
+    
     <div className='card'>
-    <h2>singleroom</h2>
     <img src={hyu} alt="" />
-    <p>it have 1room,
-    bathroom, toilet </p>
+    <p>it have bathroom, toilet </p>
     <p>location:zongo</p>
     <p>number of rooms 1</p>
-    <button>contact:0207467785</button>
-    <button>email:yenkoper7@gmail.com</button>
-    </div>
+    <div>contact:0207467785</div>
+    <div>email:yenkoper7@gmail.com</div>
+    <button>contact owner</button>
     </div>
     
-    <div>
+    
+    
     <div className='card'>
-    <h2>singleroom</h2>
     <img src={rin} alt="" />
-    <p>it have 1room bathroom, toilet  </p>
+    <p>it have  bathroom, toilet  </p>
     <p>location:zongo</p>
     <p>number of rooms 9</p>
-    <button>contact:0594578634</button>
-    <button>email:yenkopeter7@gmail.com</button>
+    <div>contact:0594578634</div>
+    <div>email:yenkopeter7@gmail.com</div>
+    <button>contact owner</button>
     </div>
+   
     </div>
     </div>
     

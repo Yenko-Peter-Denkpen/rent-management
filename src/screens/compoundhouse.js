@@ -2,15 +2,18 @@ import React from 'react'
 import  uys from '../imgs/uys.jpeg'
 import mou from '../imgs/mou.jpeg'
 import inv from '../imgs/inv.jpeg'
+import NavBar from '../components/NavBar'
 
 
 <imgs/>
 function Compoundhouse() {
   return (
-    <div>
+    <div><NavBar/>
+    <div><h1>compoundhouses</h1></div>
+    
+    <div className='firstrow'>
     <div className='card'>
-    <h2>compound house</h2>
-    <img src={uys} alt="" />
+   <img src={uys} alt="" />
     <p> a single room with bathroom and toilet</p>
     <p>number of rooms 16</p>
     <p>location:charia rood</p>
@@ -20,10 +23,9 @@ function Compoundhouse() {
     </div>
     
     
-    <div>
+    
     <div className='card'>
-    <h2>compound house</h2>
-    <img src={mou} alt="" />
+   <img src={mou} alt="" />
     <p> a single room with bathroom and toilet</p>
     <p>number of rooms 10</p>
     <p>location:chahaa rood</p>
@@ -31,11 +33,10 @@ function Compoundhouse() {
     <div>email:denkpen444@gmail.com</div>
     <button>contact owner</button>
     </div>
-    </div>
     
-    <div>
+    
+    
     <div className='card'>
-    <h2>compound house</h2>
     <img src={inv} alt="" />
     <p> a single room with bathroom and toilet</p>
     <p>number of rooms 24</p>
@@ -43,11 +44,12 @@ function Compoundhouse() {
     <div>contact:0204322483</div>
     <div>email:gandaare@gmail.com</div>
     <button>contact owner</button>
-    <button>contact:020-7481917</button>
-    </div>
+   
     </div>
     
+    
    
+    </div>
     </div>
   )
 }

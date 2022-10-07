@@ -14,7 +14,8 @@ function Home() {
 
 
     
-<h1>welcome to your solutions in house renting</h1>
+<h1>welcome to your solutions in house renting,</h1> 
+  <h3> an app where you can get all types of your preferd houses with it location, prices and landlord contact</h3>
 <div className='firstrow'>
 
       
