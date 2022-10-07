@@ -19,6 +19,8 @@
     width: 500px;
     text-align: center;
     align-content: center;
+    padding: 30px 20px;
+    margin-top: 40px;
   }
 
 
@@ -94,7 +96,7 @@ border-radius: 40px;
 .landingpage{
   height:90vh;
   width: 100%;
-  background-image: url("./imgs/house1.webp");
+  background-image: url("./imgs/adin.jpeg");
   background-size: cover;
   background-position: center;
   opacity: 90%;

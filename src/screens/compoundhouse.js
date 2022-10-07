@@ -1,16 +1,16 @@
 import React from 'react'
-import  House from '../imgs/images (10).jpeg'
-import Houses from '../imgs/images (15).jpeg'
-import house from '../imgs/images (18).jpeg'
+import  uys from '../imgs/uys.jpeg'
+import mou from '../imgs/mou.jpeg'
+import inv from '../imgs/inv.jpeg'
 
 
 <imgs/>
-function compoundhouse() {
+function Compoundhouse() {
   return (
     <div>
     <div className='card'>
     <h2>compound house</h2>
-    <img src={House} alt="" />
+    <img src={uys} alt="" />
     <p> a single room with bathroom and toilet</p>
     <p>number of rooms 16</p>
     <p>location:charia rood</p>
@@ -23,7 +23,7 @@ function compoundhouse() {
     <div>
     <div className='card'>
     <h2>compound house</h2>
-    <img src={Houses} alt="" />
+    <img src={mou} alt="" />
     <p> a single room with bathroom and toilet</p>
     <p>number of rooms 10</p>
     <p>location:chahaa rood</p>
@@ -36,7 +36,7 @@ function compoundhouse() {
     <div>
     <div className='card'>
     <h2>compound house</h2>
-    <img src={house} alt="" />
+    <img src={inv} alt="" />
     <p> a single room with bathroom and toilet</p>
     <p>number of rooms 24</p>
     <p>location:near dobile lowcoast</p>
@@ -52,4 +52,4 @@ function compoundhouse() {
   )
 }
 
-export default compoundhouse
+export default Compoundhouse

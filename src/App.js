@@ -8,8 +8,9 @@ import Category from "./screens/Category"
 import About from "./screens/About"
 import Bungalow from "./screens/Bungalow";
 import SelfContain from "./screens/SelfContain";
-import SingleStepstorybuilding from "./screens/SingleStepstorybuilding";
-import compoundhouse from "./screens/compoundhouse";
+import Singleroom from "./screens/Singleroom";
+import Compoundhouse from "./screens/Compoundhouse";
+import AddHouse from "./components/AddHouse"
 function App() {
   return (
     <div>
@@ -23,9 +24,10 @@ function App() {
         <Route path="/category" element={<Category />} />
         <Route path="/about" element={<About />} />
         <Route path="/bungalow" element={<Bungalow />} />
-        <Route path="/compoundhouse" element={<compoundhouse />} />
         <Route path="/selfcontain" element={<SelfContain />} />
-        <Route path="/singlestepstorybuilding" element={<SingleStepstorybuilding />} />
+        <Route path="/singleroom" element={<Singleroom />} />
+        <Route path="/compoundhouse" element={<Compoundhouse />} />
+        <Route path="/addhouse" element={<AddHouse />} />
      
       </Routes>
     </div>

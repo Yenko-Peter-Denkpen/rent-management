@@ -1,14 +1,16 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import house from '../imgs/house.webp';
-import houses from '../imgs/images (8).jpeg';
-import House from '../imgs/images (10).jpeg';
-import Houses from '../imgs/images (21).jpeg';
-import {Link} from 'react-router-dom'
+import cfg from '../imgs/cfg.jpeg';
+import adin from '../imgs/adin.jpeg';
+import pete from '../imgs/pete.jpeg';
+import uys from '../imgs/uys.jpeg';
+
+
+
 function Home() {
   return (
     <div>
-    
+    <NavBar/>
 
 
     
@@ -18,26 +20,34 @@ function Home() {
       
 <div className='card'>
 <h2>bungalow</h2>
-<img src={house} alt="" />
+<img src={cfg} alt="" />
 
 </div>
 
 
 <div className='card'>
 <h2>self contain</h2>
-<img src={houses} alt="" />
+<img src={adin} alt="" />
 
 </div>
 
 <div className='card'>
 <h2>compound house</h2>
-<img src={House} alt="" />
+<img src={pete} alt="" />
+</div>
+
+<div className='card'>
+<h2>singleroom</h2>
+<img src={uys} alt="" />
+</div>
+
+
 
 </div>
 </div>
 
     
-    </div>
+    
     
   )
 }

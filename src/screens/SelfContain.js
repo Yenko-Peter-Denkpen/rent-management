@@ -1,11 +1,14 @@
 import React from 'react'
-
+import  adin from '../imgs/adin.jpeg'
+import hyu from '../imgs/hyu.jpeg'
+import taf from '../imgs/taf.jpeg'
+<imgs/>
 function SelfContain() {
   return (
     <div>
     <div className='card'>
-    <h2>bungalow</h2>
-    <img src={house} alt="" />
+    <h2>selfcontain</h2>
+    <img src={adin} alt="" />
     <p>this house contain 10 rooms, bathroom, kicthen,toilet and garage</p>
     <p>location:wa new market</p>
     <p>number of rooms:10</p>
@@ -14,22 +17,22 @@ function SelfContain() {
     <div>email:asaa3@gmail.com</div>
     </div>
     
-    <div>
+    <di>
     <div className='card'>
-    <h2>bungalow</h2>
-    <img src={house} alt="" />
-    <p>this house contain 12 rooms, bathroom, kicthen,toilet and garage</p>
+    <h2>SelfContain</h2>
+    <img src={hyu} alt="" />
+    <p>this house contain 11 rooms, bathroom, kicthen,toilet and garage</p>
     <p>location:wa new market</p>
-    <p>number of rooms:12</p>
+    <p>number of rooms:11</p>
     <button>contact owner</button>
     <div>contact:0553661240</div>
     <div>email:asana3@gmail.com</div>
     </div>
-    </div>
+    
     <div>
     <div className='card'>
-    <h2>bungalow</h2>
-    <img src={house} alt="" />
+    <h2>selfcontain</h2>
+    <img src={taf} alt="" />
     <p>this house contain 9 rooms, bathroom, kicthen,toilet and garage</p>
     <p>location:  nakore</p>
     <p>number of rooms:9</p>
@@ -38,19 +41,11 @@ function SelfContain() {
     <div>email:uyana3@gmail.com</div>
     </div>
     </div>
-    <div>
-    <div className='card'>
-    <h2>bungalow</h2>
-    <img src={house} alt="" />
-    <p>this house contain 14 rooms, bathroom, kicthen,toilet and garage</p>
-    <p>location:air strip</p>
-    <p>number of rooms:14</p>
-    <button>contact owner</button>
-    <div>contact:0559861240</div>
-    <div>email:asana3@gmail.com</div>
+    
+ </di>
     </div>
-    </div>
-    </div>
+    
+  
     
   )
 }

@@ -19,6 +19,7 @@ function Login() {
     authLogin(email, password);
   };
   return (
+    
     <form onSubmit={handleSubmit} className="form">
       <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4 m-3 p-3 bg-info">
       <h2>Welcome to Rent Management app!!</h2>

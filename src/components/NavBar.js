@@ -1,5 +1,14 @@
 import React from 'react'
 
+
+
+
+
+
+
+
+
+
 function NavBar() {
   return (
     <div>
@@ -21,6 +30,9 @@ function NavBar() {
           </li>
           <li class="nav-item">
           <a class="nav-link" href="/about">About</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="/addhouse">Addhouse</a>
         </li>
           <li class="nav-item">
             <a class="nav-link" href="/login">Login</a>
